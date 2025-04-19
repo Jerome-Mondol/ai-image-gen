@@ -1,0 +1,53 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Poppins;
+}
+html, body {
+   height: 100%;
+   width: 100%;
+}
+
+center {
+    margin-top: 50px;
+}
+
+input {
+    width: 500px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    display: none;
+    margin: 50px auto;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+}
+
+.generate-btn {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    background: violet;
+    cursor: pointer;
+}
+
+.ai-prompt-btn {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    background: violet;
+    cursor: pointer;
+}
